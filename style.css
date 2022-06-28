@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+}
+nav {
+    background-color: #081329;
+    margin-bottom: -20px;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 15px 5px;
+}
+
+/* Giriş */
+.giris {
+    background-color: #273576;
+    padding: 20px 30px;
+    color: white;
+    height: 16vh;
+}
+input {
+    border: none;
+    padding: 10px !important;
+    font-size: 10px;
+    width: 230px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+input::placeholder {
+    font-size: 15px;
+}
+.yedi-gun {
+    font-weight: 450;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.button {
+    font-size: 14px;
+    padding: 13px;
+    background-color: rgb(60, 154, 231);
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.icons {
+    padding: 10px 12px;
+    border: none;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.fab {
+    font-size: 22px;
+}
+.fa-facebook-square {
+    color: blue;
+}
+.check{
+    padding-top: 10px;
+}
+
+/* Hero Image kısmı */
+.hero {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0), #081329), url(img/logo.webp);
+    background-position: center;
+    background-size: cover;
+    height: 76vh;
+}
+.hero-text {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.hero-text small {
+    color: #8e8e8e;
+}
+.iptal {
+    margin-top: 50px;
+}
+.iptal button {
+    padding: 10px 60px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    width: 45%;
+    background-color: white;
+}
+
+/* Slide */
+.slide-container {
+    background-color: #081329;
+    padding-bottom: 80px;
+}
+.slide {
+    padding-top: 210px;
+    width: 100%;
+    
+}
+.resimler {
+    width: initial;
+    height: initial;
+    margin-left: 20px;
+}
+.resimler img {
+    width: 309px;
+}
+.resimler-slide {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.next {
+    position: absolute;
+    color: white;
+    right: 0;
+    width: 50px;
+    font-size: 40px;
+    height: 100%;
+    background-color: #08132985;;
+}
+#next {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+.back{
+    position: absolute;
+    color: white;
+    left: 0;
+    width: 50px;
+    font-size: 40px;
+    height: 100%;
+    font-weight: bold;
+    background-color: #08132985;;
+}
+#back {
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
+
+/* Üçlü resim kısmı */
+.uclu {
+    width: 90%;
+    margin: auto;
+}
+.uclu h4 {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.uclu img {
+    width: 100%;
+}
+.uclu .row {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.line {
+    width: 4px;
+    height: 55px;
+    background-color: #273576;
+    float: left;
+    margin-right: 10px;
+    line-height: 2;
+}
+
+/* Kanallar */
+.kanallar {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.kanal-slide {
+    width: 200%;
+    margin-left: 35px;
+}
+.kanal {
+    width: 170px;
+    height: 120px;
+    background-color: white;
+    margin: 10px;
+    padding-top: 20px;
+}
+.back-kanal {
+    position: absolute;
+    color: white;
+    left: -5px;
+    top: 35%;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.next-kanal{
+    position: absolute;
+    color: black;
+    right: 0;
+    top: 35%;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #081329;
+}
+
+/* Yıllık bilgi */
+.yillik .image{
+    width: 740px;
+    height: 531px;
+    background-image: linear-gradient(to right, #081329e0,rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.226), #081329d5), url(img/filmler.webp);
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.yillik-text {
+    margin-left: 20px;
+    
+}
+.yillik p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.yillik-text button {
+    width: 18rem;
+    height: 2.75rem;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    border: none;
+    background-color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 20px;
+}
+
+/* Keşfet */
+.butonlar button {
+    background-color: #FFFFFF26;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    width: 206px;
+    height: 47px;
+    font-size: 18px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin: 15px;
+}
+
+/* Sorular */
+.son-container {
+    margin-bottom: 100px;
+}
+.son-container h5{
+    font-size: 17px;
+    margin-left: 60px;
+}
+.sorular button {
+    width: 90%;
+    background-color: #081329;
+    border: none;
+    color: white;
+    text-align: start;
+    font-size: 18px;
+    padding:  10px;
+    outline: none;
+}
+.panel {
+    width: 70%;
+    margin-left: 30px;
+    text-align: start;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.2s ease-out;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.sorular hr {
+    width: 90%;
+}
+
+/* Fixed */
+.fix {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2e2f41;
+    color: #b2b4b6;
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+    padding: 10px 0;
+}
+.small-line {
+    width: 1px;
+    height: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    background-color: rgb(83, 81, 81);
+}
+.fix img {
+    height: 16px;
+    margin-top: 3px;
+}
+.fix i {
+    color: white;
+    font-size: 18px;
+    margin: 2px 3px 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: #081329;
+}
+::-webkit-scrollbar-thumb {
+    background: #273576; 
+    border-radius: 10px;
+  }
